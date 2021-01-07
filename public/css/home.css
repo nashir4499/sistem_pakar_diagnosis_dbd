@@ -1,0 +1,176 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(#B291B7, #539CCE);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin-bottom: 95px;
+}
+
+.footer {
+    background-color: #002385;
+    /* height: 10vh; */
+    color: white;
+    /* display: block; */
+    /* position: fixed; */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    /* height: 60px; */
+}
+
+.navbar {
+    /* box-shadow: 10px 20px 10px #000000 16%; */
+    margin-top: 50px;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navlinknya {
+    font-size: 12px;
+    margin: 10px 10px 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 100px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.navlinknya:hover {
+    color: white !important;
+    background-color: #B291B7;
+}
+
+.bagian-atas {
+    height: 100vh;
+    background-image: url("../img/doctors.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+}
+
+.align-vertical {
+    height: 75vh;
+    align-items: center;
+    /* margin: 0;
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); */
+}
+
+.isi-atas {
+    font-size: small;
+    background-color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 40px;
+    border-radius: 50PX;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bagian-tengah {
+    height: 100vh;
+    background-image: url("../img/medicine.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: left;
+}
+
+.bagian-bawah {
+    height: 87vh;
+    background-image: url("../img/doctor.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+}
+
+.bagian-info {
+    /* height: 100vh; */
+    background-image: url("../img/medicine.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+}
+
+.info-konten {
+    margin-bottom: 25px;
+    font-size: small;
+    background-color: white;
+    padding: 30px 15px 30px 15px;
+    border-radius: 50PX;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bagian-kontak {
+    /* height: 75vh; */
+    height: 60vh;
+    background-image: url("../img/doctors.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right;
+    /* background-position-x: right;
+    background-position-y: bottom; */
+}
+
+.kontak-konten {
+    background-color: white;
+    padding: 30px 15px 30px 15px;
+    /* border-radius: 50PX; */
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.kontak-konten:hover {
+    background-color: rgb(219, 206, 255);
+}
+
+.kontak-align-vertical {
+    /* margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: 10%;
+    bottom: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.sosmed {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.bagian-pengecekan {
+    height: 67vh;
+    /* height: 60vh; */
+    background-image: url("../img/doctor.svg");
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right top;
+}
+
+.pengecekan-konten {
+    /* margin-bottom: 25px; */
+    margin: 25px 0px 25px 0px;
+    font-size: small;
+    background-color: white;
+    padding: 30px 15px 30px 15px;
+    border-radius: 50PX;
+    box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.row-pengecekan {
+    height: 65vh;
+    align-items: center;
+}
+
+.aktif {
+    color: white !important;
+    background-color: #B291B7;
+}
